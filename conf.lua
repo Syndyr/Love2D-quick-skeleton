@@ -5,7 +5,7 @@ function love.conf(t)
     t.console = true                  -- Attach a console (boolean, Windows only)
 
     t.window.title = "Skeleton"        -- The window title (string)
-    t.window.icon = ""                -- Filepath to an image to use as the window's icon (string)
+    t.window.icon = nil                -- Filepath to an image to use as the window's icon (string)
     t.window.width = 1080               -- The window width (number)
     t.window.height = 800              -- The window height (number)
     t.window.borderless = false        -- Remove all border visuals from the window (boolean)
